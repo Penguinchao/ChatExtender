@@ -1,0 +1,17 @@
+main: com.penguinchao.chatextender.ChatExtender
+version: 1.0
+name: ChatExtender
+author: Penguinchao
+commands:
+    celisten:
+        description: Listen for certain, suspicious commands from players.
+permissions:
+    chatextender.listen: #Allows the use of celisten
+        default: op
+        description: Allows the use of /celisten to begin listening
+    chatextender.conversations:
+        default: op
+        description: Allows the player to listen to PMs (USE SPARINGLY).
+    chatextender.commands:
+        default: op
+        description: Allows the player to listen to watched commands.

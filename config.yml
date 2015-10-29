@@ -1,0 +1,26 @@
+#Settings
+debug-enabled: false
+
+#Things to listen for
+listeners:
+ pm:
+  - /msg
+  - /m
+  - /tell
+  - /whisper
+ reply:
+  - /reply
+  - /r
+ watched:
+  - /op
+  - /pl
+  - /plugins
+  - /version
+  
+#---Messages---
+#Success Messages
+now-listening: You are now listening to messages
+not-listening: You are no longer listening to messages
+#Error Messages
+no-permission: You do not have permission to do that
+an-error-occurred: Failed to toggle listening.
